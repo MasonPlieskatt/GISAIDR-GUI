@@ -34,6 +34,9 @@ To run this project, ensure you have the following software installed:
 - `bcrypt`
 
 Install the necessary Python dependencies via pip:
+```bash
+pip install customtkinter watchdog pandas bcrypt
+```
 
 ### Required R Libraries:
 - `devtools` to install the **GISAIDR** package from GitHub.
