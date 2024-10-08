@@ -9,7 +9,6 @@ import os
 import csv
 import time
 import subprocess
-import bcrypt
 
 r_script = "TEMP.R"
 ctk.set_appearance_mode("system")
