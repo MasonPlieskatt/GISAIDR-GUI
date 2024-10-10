@@ -20,23 +20,21 @@ This application provides a graphical interface using **CustomTkinter** that all
 To run this project, ensure you have the following software installed:
 
 - **Python 3.x**
-- **R** (for executing the R script)
+- **R**
 - **CustomTkinter** for the GUI.
 - **Watchdog** for monitoring file changes.
 - **GISAIDR** package from GitHub for interacting with the GISAID database.
-- **bcrypt** for secure password handling.
 
 ### Required Python Libraries:
 - `customtkinter`
 - `tkinter`
 - `watchdog`
-- `pandas`
-- `bcrypt`
 
 Install the necessary Python dependencies via pip:
 ```bash
-pip install customtkinter watchdog pandas bcrypt
+pip3 install customtkinter watchdog
 ```
+
 
 ### Required R Libraries:
 - `devtools` to install the **GISAIDR** package from GitHub.
@@ -61,7 +59,7 @@ devtools::install_github("Wytamma/GISAIDR")
 ### 0. Running the Code:
 - To start the application, input the following line into terminal, shell, or cmd opened at the installation path. Additionally, you can build the "GISAIDR_GUI" file yourself.
 ```bash
-python GISAIDR_GUI.py
+python3 GISAIDR_GUI.py
 ```
 
 ### 1. Login Window:
