@@ -58,6 +58,11 @@ devtools::install_github("Wytamma/GISAIDR")
 ---
 
 ## Usage Instructions
+### 0. Running the Code:
+- To start the application, input the following line into terminal, shell, or cmd opened at the installation path. Additionally, you can build the "GISAIDR_GUI" file yourself.
+```bash
+python GISAIDR_GUI.py
+```
 
 ### 1. Login Window:
 - When you start the application, a login window will appear.
