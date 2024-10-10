@@ -4,13 +4,12 @@ import tkinter as tk
 from tkinter import END
 from watchdog.observers import Observer
 from watchdog.events import FileSystemEventHandler
-import pandas as pd
 import os
 import csv
 import time
 import subprocess
 
-r_script = "TEMP.R"
+r_script = "GISAIDR_RUN.R"
 ctk.set_appearance_mode("system")
 class Login_Window(ctk.CTk):
     def __init__(self):
