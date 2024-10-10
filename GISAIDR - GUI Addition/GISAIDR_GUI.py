@@ -21,7 +21,7 @@ class Login_Window(ctk.CTk):
         self.PasswordEntry = ctk.CTkEntry(self, show="✲")
         self.DatabaseEntry = ctk.CTkOptionMenu(self, values=["EpiCoV", "EpiCox", "EpiRSV"])
         self.MenuLabel = ctk.CTkLabel(self, text="  GISAIDR INTERFACER GUI | V.0.1", font=("Arial", 30, 'bold'), wraplength=350)
-        self.Login_Button = ctk.CTkButton(self, text="Login", command=self.Login_Button)
+        self.Login_Button = ctk.CTkButton(self, text="Login", command=self.login)
         self.Warning_Label = ctk.CTkLabel(self, text="Error: one or more fields empty, please try again.", font=("Arial", 16, "bold"), text_color="red")
         self.stored_login()
         self.create_widgets()
@@ -43,7 +43,7 @@ class Login_Window(ctk.CTk):
     def create_label_with_field(self, text, input_row, input_col, stick):
         label = ctk.CTkLabel(self, text=text, font=("Arial", 16))
         label.grid(row=input_row, column=input_col, sticky=stick)
-    def Login_Button(self):
+    def login(self):
         username = self.UsernameEntry.get().strip()
         password = self.PasswordEntry.get().strip()
         database = self.DatabaseEntry.get().strip()
