@@ -20,7 +20,7 @@ This application provides a graphical interface using **CustomTkinter** that all
 To run this project, ensure you have the following software installed:
 
 - **Python 3.x**
-- **R**
+- **R** for running the GISAIDR package
 - **CustomTkinter** for the GUI.
 - **Watchdog** for monitoring file changes.
 - **GISAIDR** package from GitHub for interacting with the GISAID database.
